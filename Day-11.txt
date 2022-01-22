@@ -1,0 +1,294 @@
+				DAY-11
+1. Fix the bugs in below snippet
+
+    <html lang="en">
+    <head>
+        <title>Document
+    <body>
+         guvi
+    </title>
+    </head>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.<div>
+    <div>Guvi Geek Network</div>
+    </body>
+    </html>
+
+//corrected code:
+
+    <html lang="en">
+    <head>
+        <title>Document </title>
+    </head>
+    <body>
+        <h1>guvi</h1>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit.</div>
+    <div>Guvi Geek Network</div>
+    </body>
+    </html>
+
+//output:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+2. Try the below one
+    <html lang="en">
+    <head>
+    <title>Document
+    <body>
+        guvi
+    </head>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit.</div>
+    <div>
+         Guvi Geek Network
+    </div>
+    </body>
+    </html>
+
+//corrected code:
+        <html lang="en">
+        <head>
+        <title>Document</title>
+        </head>
+            <body>
+        <h1>guvi</h1>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing
+           elit.</div>                         
+        <div>
+            Guvi Geek Network
+        </div>
+        </body>
+        </html>
+
+//output:
+	guvi
+	Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     	Guvi Geek Network
+
+3. Design a contact us form with all fields as required.
+    //index.html:
+
+	  <html lang="en">
+       <head>
+       <title>contactus</title>
+       </head>
+       <body>
+       <h1>Welcome to our wesite</h1>
+       <a href="Contactus.html">Contact us</a>
+             
+       </body>
+       </html>
+
+   //Contactus.html:
+		  <html lang="en">
+             <head>
+             <title>list</title>
+             </head>
+             <body>
+             <h1>Welcome to our wesite</h1>
+             
+             <p>Manager</p>
+             <p>Contact no:8776098754</p>
+             
+             </body>
+             </html>
+  //output:
+           Welcome to our wesite
+           Manager
+           Contact no:8776098754
+
+
+4.  Use certain HTML elements to display the following in a HTML page.
+Programming Language
+  JavaScript
+    Angular
+    React
+    Vue.js
+  Python
+    Django Framework
+    Flask Framework
+  Java
+    Spring
+    Maven
+    Hibernate
+Database
+  MySQL
+  MongoDB
+  Cansandra
+
+//code:
+
+        <html lang="en">
+        <head>
+        <title>list</title>
+        </head>
+            <body>
+           <ul>
+               <li>Programming language</li>
+               <ul>
+                   <li>Javascript</li>
+                   <ol type="a">
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                   </ol>
+                <li>Python</li>
+                <ol type="a">
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+                <li>Java</li>
+                <ol type="a">
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hibernate</li>
+                </ol>
+            
+            </ul>    
+                <li>Database</li>
+                <ul>
+                <li>MySql</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+                </ul>
+       </body>
+       </html>
+//output:
+Programming Language
+  JavaScript
+    Angular
+    React
+    Vue.js
+  Python
+    Django Framework
+    Flask Framework
+  Java
+    Spring
+    Maven
+    Hibernate
+Database
+  MySQL
+  MongoDB
+  Cansandra
+  
+
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+
+	   <html lang="en">
+        <head>
+        <title>list</title>
+        </head>
+            <body>
+             <a href="https://google.com" target="_blank>Google            
+             </a>             
+            </body>
+        </html>
+
+//output: 
+	Google
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+//code:
+	   
+         <html lang="en">
+         <head>
+          <title>list</title>
+         </head>
+         <body>
+           <form>
+         <label for="employee_type">Employee Type:</label><br>
+         <input type="radio" value="salaried" name="salaried">
+		   salaried<br>      
+         <input type="radio" value="own business" name="own 
+              business">own business                
+           </form>
+              </body>
+         </html>
+  
+//output:
+        Employee Type:
+        salaried
+own business
+
+8. Use the table tag to design given image Click here.
+	     <!DOCTYPE html>
+          <html lang="en">
+          <head>
+          <title>list</title>
+          </head>
+              <body>
+                
+                
+                 <table border="1" >
+                  <caption>Health chart</caption>
+                   <tr>
+                   <td rowspan="2">State of Health</td>  
+                   <td colspan="2"> Fasting Value</td>
+            
+                  <td>After Eating</td>
+                  
+                   </tr>
+                   <tr>
+                     
+                   <td >Minimum</td>
+                    <td>Maximum</td>
+                    <td>2 hours after eating</td>
+                   </tr>
+                   <tr>
+                     <td>Healthy</td>
+                     <td>70</td>
+                     <td>100</td>
+                     <td>less than 140</td>
+                   </tr>
+                   <tr>
+                     <td>Pre-Diabetes</td>
+                     <td>101</td>
+                     <td>126</td>
+                     <td>140 to 200</td>
+                   </tr>
+                   <tr>
+                     <td>Diabetes</td>
+                     <td>More than 126</td>
+                     <td>N/A</td>
+                     <td>More than 200</td>
+                   </tr>
+                     
+                     
+                     
+                </table>
+              </body>
+          </html>
+
+
+9. Write HTML input tags snippet to show default values for all Form elements.
+	The value attribute in the input tag specifies the value of an <input> element. 
+	The value attribute is used differently for different input types: For "button", "reset", and "submit" - it defines the text on the button. 
+	For "text", "password", and "hidden" - it defines the initial (default) value of the input field.
+	Eg:<input type="text" name="" value="#default value">
+    
+10. In your, HTML page add the below line and Highlight it without using any CSS.
+
+ "HTML & CSS is awesome"
+
+        <html lang="en">
+        <head>
+        <title>list</title>
+        </head>
+           <body>
+               <ul>
+                   <li><mark>HTML &CSS is awesome</mark></li>
+               </ul>
+
+           </body>
+        </html>
+ 
+//output:
+      HTML &CSS is awesome
+ 
+
+
